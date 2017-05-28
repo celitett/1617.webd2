@@ -1,0 +1,435 @@
+html{
+	box-sizing:border-box;
+}
+*,*::after,*::before{
+	box-sizing:inherit;
+}
+
+body{
+	font-family: Helvetica, Arial,sans-serif;
+	font-size: 62.5%;
+	background-color: black;
+}
+
+@font-face{
+  font-family: "Champagne";
+  src: url(../assets/Fonts/Nav_font/Champagne&Limousines.ttf);
+}
+
+@font-face{
+  font-family: "apple";
+  src: url(../assets/Fonts/title_font/AppleSymbols.otf);
+}
+
+@font-face{
+  font-family: "Shree";
+  src: url(../assets/Fonts/title_font/ShreeDev0714-Bold.ttf);
+}
+
+/*-----------------------------------------------------------------Home-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------
+                           grid wrapper 1
+-----------------------------------------------------------------------*/
+.grid__wrapper {
+	padding:20px 0 40px 0;
+}
+
+.grid__wrapper_1{
+	background: url('../assets/home_first_background.png');
+	background-repeat: no-repeat;
+	height: 782px;
+}
+
+.grid__container{
+
+}
+
+.main-menu-items{
+	float: right;
+	margin-top: 40px;
+	margin-right: 110px;
+}
+
+.menu-item{
+	padding-bottom: 15px;
+}
+
+.title{
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 680px;
+}
+
+ul{
+	list-style-type: none;
+	display: inline-flex;
+}
+
+li a{
+	font-family: 'Champagne';
+	text-decoration: none;
+	color: #b4ffec;
+	font-size: 24px;
+	margin-right: 20px;
+	margin-left: 40px;
+}
+
+a:hover {
+	color: #014f3b;
+}
+
+a.selected{
+	color: #014f3b;
+}
+
+.logo-main{
+	 display: block;
+  	 margin-left: auto;
+  	 margin-right: auto;
+  	 margin-top: 50px;
+}
+
+h2{
+	font-size: 3em;
+}
+/*-----------------------------------------------------------------------
+                           grid wrapper 2
+-----------------------------------------------------------------------*/
+.grid__wrapper_2{
+	background-color: #61dfb5;
+	background-repeat: no-repeat;
+	height: 720px;
+}
+
+.inlei{
+	display: inline-flex;
+}
+
+.inleiding-foto{
+	margin-top: 150px;
+	margin-left: 20px;
+}
+
+.inleiding{
+	margin-top: 80px;
+	margin-left: 50px;
+}
+
+.titel1{
+	font-family: 'Shree';
+	color: #005b44;
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+
+.tekst1{
+	font-family: 'apple';
+	color: #005b44;
+	font-size: 24px;
+	width: 360px;
+}
+
+.white-words{
+	color: white;
+}
+
+.plate-mint{
+	right: 0;
+	margin-right: 20px;
+	margin-top: -140px;
+	position: absolute;
+}
+/*-----------------------------------------------------------------------
+                           grid wrapper 3
+-----------------------------------------------------------------------*/
+.grid__wrapper_3 {
+	background: url('../assets/home_third_background.png');
+	height: 671px;
+	background-repeat: no-repeat;
+}
+
+.deel2{
+	margin-top: 75px;
+}
+
+.titel2{
+	font-size: 30px;
+	font-family: 'Champagne';
+	color: #005b44;
+	font-weight: bold;
+	margin-left: 370px;
+}
+
+.fototekst{
+	display: flex;
+	margin-top: 90px;
+	margin-left: 100px;
+	font-family: 'apple';
+}
+
+.circle{
+	margin-right: 100px;
+}
+
+.tekst-circle{
+	color: #005b44;
+	font-size: 24px;
+	font-family: 'Champagne';
+	text-align: center;
+	margin-top: 50px;
+}
+
+.mint_left_home{
+	float: left;
+	position: absolute;
+	margin-top: -100px;
+}
+/*-----------------------------------------------------------------------
+                           grid wrapper 4
+-----------------------------------------------------------------------*/
+.grid__wrapper_4 {
+	background-color: #a0a0a0;
+	height: 872px;
+	background-repeat: no-repeat;
+}
+
+.mint-laptop{
+	margin-top: 20px;
+	margin-left: 55px;
+	position: static;
+}
+
+.knop{
+	font-size: 30px;
+	color: #0bce9e;
+	font-family: 'Champagne';
+	text-align: center;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+	margin-left: 435px;
+	margin-top: -40px;
+    float: left;
+	border-radius: 10px;
+	font-family: 'Champagne';
+	font-size: 25px;
+	color: #0bb68c;
+	text-decoration: none;
+}
+
+.knop
+{
+	background-color: white;
+	border-bottom: 5px solid #0bb68c;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+.lemon_right_home{
+	margin-top: -200px;
+	position: absolute;
+	right: 8px;
+}
+/*-----------------------------------------------------------------------
+                           grid wrapper 5
+-----------------------------------------------------------------------*/
+.grid__wrapper_5{
+	background: url('../assets/home_fifth_background.png');
+	height: 720px;
+	background-repeat: no-repeat;
+}
+
+.tekst-card{
+	margin-left: 190px;
+	position: absolute;
+	margin-top: -520px;
+	font-family: 'apple';
+}
+
+.home-vraag-card{
+	font-family: 'Champagne';
+	font-size: 30px;
+	font-weight: bold;
+	color: #00bf90;
+	margin-bottom: 40px;
+}
+
+.form-2{
+	display: flex;
+}
+
+.form-2 h1{
+    background: #43D1AF;
+    color: #005b44;
+}
+
+.form-2 input[type="text"], select{
+	-webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #e0f3eb;
+    border: 1px solid #0bce9e;
+    color: #005b44;
+    height: 30px;
+}
+
+.form-2 input[type="textarea"], textarea{
+	background: #e0f3eb;
+    border: 1px solid #0bce9e;
+    color: #005b44;
+    height: 130px;
+}
+
+.form-2 input[type="text"]:focus{
+    box-shadow: 0 0 5px #43D1AF;
+    border: 1px solid #43D1AF;
+}
+
+.action-button2
+{
+	position: relative;
+	height: 35px;
+	width: 320px;
+	margin-top: -40px;
+    float: left;
+	border-radius: 8px;
+	font-family: 'Champagne';
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.action-button2:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+	outline: none;
+}
+
+.knop2
+{
+	background-color: #0bce9e;
+	border-bottom: 5px solid #06a37c;
+}
+
+.form-deel1{
+	margin-right: 20px;
+}
+
+.row{
+	margin-bottom: 50px;
+}
+
+label{
+	color: #005b44;
+	font-size: 18px;
+	font-family: 'Champagne';
+}
+
+.cards_back{
+	position: relative;
+}
+
+.home-cards{
+	margin-top: 100px;
+  	margin-left: 130px;
+}
+
+.grid__wrapper_6{
+	background-color: #0bce9e;
+	height: 770px;
+	background-repeat: no-repeat;
+}
+
+.footer_first_div{
+	display: flex;
+}
+
+.contact_footer{
+ 	text-align: right;
+ 	margin-right: 60px;
+ 	margin-left: 160px;
+ 	margin-top: 80px;
+}
+
+.openings_footer{
+	text-align: right;
+	margin-right: 60px;
+	margin-top: 80px;
+}
+
+.links_footer{
+	display: flex;
+	margin-right: 60px;
+	margin-left: 90px;
+	margin-top: 100px;
+}
+
+.logo_footer{
+	margin-top: -10px;
+}
+
+.footer_titel{
+	font-family: 'Champagne';
+	font-size: 24px;
+	color: white;
+}
+
+.footer_tekst{
+	font-family: 'Champagne';
+	color: #005b44;
+	font-size: 16px;
+}
+
+.footer_span{
+	color: white;
+}
+
+.map{
+	position: absolute;
+	margin-left: -141px;
+}
+
+.copywright{
+	font-family: 'Champagne';
+	font-size: 18px;
+	color: white;
+	margin-top: 380px;
+	text-align: center;
+}
+
+/*-----------------------------------------------------------------About-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------
+                           grid wrapper 1
+-----------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+

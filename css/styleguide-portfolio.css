@@ -1,0 +1,657 @@
+html{
+	box-sizing:border-box;
+}
+*,*::after,*::before{
+	box-sizing:inherit;
+}
+
+body{
+	font-family: Helvetica, Arial,sans-serif;
+	font-size: 62.5%;
+	background-color: black;
+}
+
+@font-face{
+  font-family: "Champagne";
+  src: url(../assets/Fonts/Nav_font/Champagne&Limousines.ttf);
+}
+
+@font-face{
+  font-family: "apple";
+  src: url(../assets/Fonts/title_font/AppleSymbols.otf);
+}
+
+@font-face{
+  font-family: "Shree";
+  src: url(../assets/Fonts/title_font/ShreeDev0714-Bold.ttf);
+}
+
+/*-----------------------------------------------------------------Home-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------
+                           grid wrapper 1
+-----------------------------------------------------------------------*/
+.grid__wrapper {
+	padding:20px 0 40px 0;
+}
+
+.grid__wrapper_1{
+	background: url('../assets/portfolio_first_background.png');
+	background-repeat: no-repeat;
+	height: 782px;
+}
+
+.main-menu-items{
+	float: right;
+	margin-top: 40px;
+	margin-right: 110px;
+}
+
+.menu-item{
+	padding-bottom: 15px;
+}
+
+.title{
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 680px;
+}
+
+ul{
+	list-style-type: none;
+	display: inline-flex;
+}
+
+li a{
+	font-family: 'Champagne';
+	text-decoration: none;
+	color: #b4ffec;
+	font-size: 24px;
+	margin-right: 20px;
+	margin-left: 40px;
+}
+
+a:hover {
+	color: #014f3b;
+}
+
+a.selected{
+	color: #014f3b;
+}
+
+.logo-main{
+	 display: block;
+  	 margin-left: auto;
+  	 margin-right: auto;
+  	 margin-top: 50px;
+}
+
+h2{
+	font-size: 3em;
+}
+/*-----------------------------------------------------------------------
+                           grid wrapper 2
+-----------------------------------------------------------------------*/
+.grid__wrapper_2{
+	background-color: #61dfb5;
+	background-repeat: no-repeat;
+	height: 140px;
+}
+
+.inleiding{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.titel1{
+	font-family: 'Champagne';
+	color: #005b44;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+/*-----------------------------------------------------------------------
+                           grid wrapper 3
+-----------------------------------------------------------------------*/
+.grid__wrapper_3{
+	background: url('../assets/portfolio_third_blok.png');
+	background-repeat: no-repeat;
+	height: 760px;
+}
+
+.titel_blocks{
+	margin-left: 20px;
+	color: #005b44;
+	font-family: 'Champagne';
+	font-size: 24px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.first_blocks{
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.blok_1{
+	background-color: #0bce9e;
+	width: 705px;
+	height: 274px;
+	display: flex;
+}
+
+.CoffeeLaTarocchi_foto{
+	margin-top: 30px;
+}
+
+.blok1_info{
+	margin-left: -15px;
+}
+
+.left_blok_color1{
+	font-family: 'Champagne';
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+.plaats{
+	font-family: 'Champagne';
+	font-size: 16px;
+	color: black;
+	margin-bottom: -10px;
+}
+
+.website{
+	font-family: 'Champagne';
+	font-size: 16px;
+	color: #b4ffec;
+	margin-bottom: 50px;
+	text-decoration: none;
+}
+
+.link{
+	font-family: 'Champagne';
+	font-size: 20px;
+	color: white;
+	text-decoration: underline;
+}
+
+
+.second_blocks{
+	display: flex;
+}
+
+.blok_2{
+	background-color: #a0a0a0;
+	width: 705px;
+	height: 274px;
+	display: flex;
+	margin-left: 50px;
+}
+
+.right_blok_color1{
+	font-family: 'Champagne';
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 60px;
+	margin-left: 30px;
+}
+
+.right_text_blok_2{
+	text-align: right;
+	margin-left: 30px;
+}
+
+.CaveOfShades_foto{
+	margin-top: 30px;
+	margin-left: -10px;
+}
+
+/*----------row 2 - blocks----------*/
+
+.second_blocks{
+	display: flex;
+}
+
+.blok_3{
+	background-color: #a0a0a0;
+	width: 705px;
+	height: 274px;
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.AddictionTruck_foto{
+	margin-top: 30px;
+}
+
+.blok3_info{
+	margin-top: 30px;
+	margin-left: -15px;
+}
+
+.left_blok_color2{
+	font-family: 'Champagne';
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+.left_text_blok_3{
+	margin-left: -15px;
+}
+
+.second_blocks{
+	display: flex;
+}
+
+.blok_4{
+	background-color: #0bce9e;
+	width: 705px;
+	height: 274px;
+	display: flex;
+	margin-left: 50px;
+}
+
+.right_blok_color1{
+	font-family: 'Champagne';
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+.right_text_blok_4{
+	text-align: right;
+	margin-left: 20px;
+}
+
+.EHBO_foto{
+	margin-top: 30px;
+	margin-left: -10px;
+}
+
+/*-----------------------------------------------------------------------
+                           grid wrapper 4
+-----------------------------------------------------------------------*/
+.grid__wrapper_4{
+	background: url('../assets/portfolio_fourth_blok.png');
+	background-repeat: no-repeat;
+	height: 318px;
+	margin-top: -40px;
+}
+
+.third_blocks{
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.blok_5{
+	background-color: #0bce9e;
+	width: 545px;
+	height: 274px;
+	display: flex;
+}
+
+.InfinityFood_foto{
+	margin-top: 30px;
+}
+
+.blok3_info{
+	margin-top: 30px;
+	margin-left: -15px;
+}
+
+.left_blok_color1{
+	font-family: 'Champagne';
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+.left_text_blok_5{
+	margin-left: -15px;
+}
+
+.blok_6{
+	background-color: #a0a0a0;
+	width: 545px;
+	height: 274px;
+	display: flex;
+	margin-left: 50px;
+}
+
+.right_blok_color2{
+	font-family: 'Champagne';
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+.right_text_blok_6{
+	text-align: right;
+	margin-left: 80px;
+}
+
+.shaver_foto{
+	margin-top: 30px;
+}
+
+/*-----------------------------------------------------------------------
+                           grid wrapper 5
+-----------------------------------------------------------------------*/
+.grid__wrapper_5{
+	display: flex;
+	background: url('../assets/portfolio_fifth_blok.png');
+	background-repeat: no-repeat;
+	height: 296px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+.fourth_blocks{
+	display: flex;
+}
+
+.blok_7{
+	background-color: #a0a0a0;
+	width: 545px;
+	height: 274px;
+	display: flex;
+}
+
+.ColinSimpson_foto{
+	margin-top: 30px;
+}
+
+.blok_7_info{
+	margin-left: -15px;
+}
+
+.left_blok_color1{
+	font-family: 'Champagne';
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+.blok_8{
+	background-color: #0bce9e;
+	width: 545px;
+	height: 274px;
+	display: flex;
+	margin-left: 50px;
+}
+
+.right_text_blok_8{
+	text-align: right;
+	margin-left: -20px;
+	margin-left: 20px;
+}
+
+.texasBeard_foto{
+	margin-top: 30px;
+	margin-left: -25px;
+}
+
+/*-----------------------------------------------------------------------
+                           grid wrapper 6
+-----------------------------------------------------------------------*/
+.grid__wrapper_6{
+	display: flex;
+	background: url('../assets/portfolio_sixth_blok.png');
+	background-repeat: no-repeat;
+	height: 362px;
+	margin-top: -10px;
+}
+
+.fifth_blocks{
+	display: flex;
+	margin-top: 10px;
+}
+
+.blok_9{
+	background-color: #0bce9e;
+	width: 545px;
+	height: 274px;
+	display: flex;
+}
+
+.abednego_foto{
+	margin-top: 30px;
+}
+
+.blok_9_info{
+	margin-left: -15px;
+}
+
+.left_blok_color1{
+	font-family: 'Champagne';
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+.blok_10{
+	background-color: #a0a0a0;
+	width: 545px;
+	height: 274px;
+	display: flex;
+	margin-left: 50px;
+}
+
+.right_text_blok_8{
+	text-align: right;
+	margin-left: -20px;
+	margin-left: 20px;
+}
+
+.vaultPizza_foto{
+	margin-top: 30px;
+	margin-left: -15px;
+}
+
+.vaultPizza_info{
+	text-align: right;
+	margin-left: 50px;
+}
+
+/*-----------------------------------------------------------------------
+                           grid wrapper 7
+-----------------------------------------------------------------------*/
+.grid__wrapper_7{
+	display: flex;
+	background: url('../assets/portfolio_sixth_blok.png');
+	background-repeat: no-repeat;
+	height: 362px;
+	margin-top: -45px;
+}
+
+.sixth_blocks{
+	display: flex;
+}
+
+.blok_11{
+	background-color: #a0a0a0;
+	width: 545px;
+	height: 274px;
+	display: flex;
+}
+
+.moreWithLess_foto{
+	margin-top: 30px;
+}
+
+.moreWithLess_info{
+	margin-left: -15px;
+}
+
+.left_blok_color1{
+	font-family: 'Champagne';
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+.blok_12{
+	background-color: #0bce9e;
+	width: 545px;
+	height: 274px;
+	display: flex;
+	margin-left: 50px;
+}
+
+.right_text_blok_8{
+	text-align: right;
+	margin-left: -20px;
+	margin-left: 20px;
+}
+
+.munkPack_foto{
+	margin-top: 30px;
+	margin-left: -15px;
+}
+
+.munkPack_info{
+	text-align: right;
+	margin-left: 80px;
+}
+
+/*-----------------------------------------------------------------------
+                           grid wrapper 8
+-----------------------------------------------------------------------*/
+.grid__wrapper_8{
+	background: url('../assets/portfolio_sixth_blok.png');
+	height: 200px;
+	background-repeat: no-repeat;
+}
+
+.button_meer{
+	margin-top: 50px;
+	margin-left: 40px;
+}
+
+.knop{
+	font-size: 30px;
+	color: #0bce9e;
+	font-family: 'Champagne';
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+	margin-left: 435px;
+	margin-top: -40px;
+    float: left;
+	border-radius: 10px;
+	font-family: 'Champagne';
+	font-size: 25px;
+	color: #0bb68c;
+	text-decoration: none;
+}
+
+.knop
+{
+	background-color: white;
+	border-bottom: 5px solid #0bb68c;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+/*-----------------------------------------------------------------------
+                           grid wrapper 9
+-----------------------------------------------------------------------*/
+.grid__wrapper_9{
+	background-color: #0bce9e;
+	height: 770px;
+	background-repeat: no-repeat;
+}
+
+.footer_first_div{
+	display: flex;
+}
+
+.contact_footer{
+ 	text-align: right;
+ 	margin-right: 60px;
+ 	margin-left: 160px;
+ 	margin-top: 80px;
+}
+
+.openings_footer{
+	text-align: right;
+	margin-right: 60px;
+	margin-top: 80px;
+}
+
+.links_footer{
+	display: flex;
+	margin-right: 60px;
+	margin-left: 90px;
+	margin-top: 100px;
+}
+
+.logo_footer{
+	margin-top: -10px;
+}
+
+.footer_titel{
+	font-family: 'Champagne';
+	font-size: 24px;
+	color: white;
+}
+
+.footer_tekst{
+	font-family: 'Champagne';
+	color: #005b44;
+	font-size: 16px;
+}
+
+.footer_span{
+	color: white;
+}
+
+.map{
+	position: absolute;
+	margin-left: -141px;
+}
+
+.copywright{
+	font-family: 'Champagne';
+	font-size: 18px;
+	color: white;
+	margin-top: 380px;
+	text-align: center;
+}

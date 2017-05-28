@@ -1,0 +1,245 @@
+html{
+	box-sizing:border-box;
+}
+*,*::after,*::before{
+	box-sizing:inherit;
+}
+
+body{
+	font-family: Helvetica, Arial,sans-serif;
+	font-size: 62.5%;
+	background-color: black;
+}
+
+@font-face{
+  font-family: "Champagne";
+  src: url(../assets/Fonts/Nav_font/Champagne&Limousines.ttf);
+}
+
+@font-face{
+  font-family: "apple";
+  src: url(../assets/Fonts/title_font/AppleSymbols.otf);
+}
+
+@font-face{
+  font-family: "Shree";
+  src: url(../assets/Fonts/title_font/ShreeDev0714-Bold.ttf);
+}
+
+/*-----------------------------------------------------------------Home-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------
+                           grid wrapper 1
+-----------------------------------------------------------------------*/
+.grid__wrapper {
+	padding:20px 0 40px 0;
+}
+
+.grid__wrapper_1{
+	background: url('../assets/portfolio_first_background.png');
+	background-repeat: no-repeat;
+	height: 782px;
+}
+
+.main-menu-items{
+	float: right;
+	margin-top: 40px;
+	margin-right: 110px;
+}
+
+.menu-item{
+	padding-bottom: 15px;
+}
+
+.title{
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 680px;
+}
+
+ul{
+	list-style-type: none;
+	display: inline-flex;
+}
+
+li a{
+	font-family: 'Champagne';
+	text-decoration: none;
+	color: #b4ffec;
+	font-size: 24px;
+	margin-right: 20px;
+	margin-left: 40px;
+}
+
+a:hover {
+	color: #014f3b;
+}
+
+a.selected{
+	color: #014f3b;
+}
+
+.logo-main{
+	 display: block;
+  	 margin-left: auto;
+  	 margin-right: auto;
+  	 margin-top: 50px;
+}
+
+h2{
+	font-size: 3em;
+}
+
+/*-----------------------------------------------------------------------
+                           grid wrapper 2
+-----------------------------------------------------------------------*/
+.grid__wrapper_2{
+	background-color: #61dfb5;
+	background-repeat: no-repeat;
+	height: 140px;
+}
+
+.inleiding{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.titel1{
+	font-family: 'Champagne';
+	color: #005b44;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+/*-----------------------------------------------------------------------
+                           grid wrapper 3
+-----------------------------------------------------------------------*/
+.grid__wrapper_3{
+	background: url('../assets/portfolio-detail_third_background.png');
+	background-repeat: no-repeat;
+	height: 1373px;
+}
+
+.detail{
+	display: flex;
+}
+
+.foto_responsive{
+	margin-top: 80px;
+	margin-left: 20px;
+}
+
+.info_blok{
+	margin-top: 100px;
+	background-color: #0bce9e;
+	width: 405px;
+	height: 275px;
+	margin-left: 40px;
+}
+
+.info_blok_inhoud{
+	margin-left: 50px;
+	margin-top: 80px;
+}
+
+.tekst1{
+	font-family: 'Champagne';
+	font-size: 18px;
+	font-weight: bold;
+	color: #005b44;
+	margin-top: 50px;
+}
+
+.name_website{
+	font-family: 'Champagne';
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	margin-top: -15px;
+}
+
+.fotos_details{
+	margin-top: 100px;
+}
+
+.tekst2{
+	font-family: 'Champagne';
+	font-size: 16px;
+	color: #005b44;
+	margin-bottom: -15px;
+}
+
+.link_website{
+	font-family: 'Champagne';
+	font-size: 14px;
+	font-weight: bold;
+	color: #b4ffec;
+	text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------
+                           grid wrapper 4
+-----------------------------------------------------------------------*/
+.grid__wrapper_4{
+	background-color: #0bce9e;
+	height: 770px;
+	background-repeat: no-repeat;
+}
+
+.footer_first_div{
+	display: flex;
+}
+
+.contact_footer{
+ 	text-align: right;
+ 	margin-right: 60px;
+ 	margin-left: 160px;
+ 	margin-top: 80px;
+}
+
+.openings_footer{
+	text-align: right;
+	margin-right: 60px;
+	margin-top: 80px;
+}
+
+.links_footer{
+	display: flex;
+	margin-right: 60px;
+	margin-left: 90px;
+	margin-top: 100px;
+}
+
+.logo_footer{
+	margin-top: -10px;
+}
+
+.footer_titel{
+	font-family: 'Champagne';
+	font-size: 24px;
+	color: white;
+}
+
+.footer_tekst{
+	font-family: 'Champagne';
+	color: #005b44;
+	font-size: 16px;
+}
+
+.footer_span{
+	color: white;
+}
+
+.map{
+	position: absolute;
+	margin-left: -141px;
+}
+
+.copywright{
+	font-family: 'Champagne';
+	font-size: 18px;
+	color: white;
+	margin-top: 380px;
+	text-align: center;
+}
